@@ -1,0 +1,178 @@
+{
+    "title": {
+        "media": {
+          "url": "./assets/img/np_logo.png"
+        },
+        "text": {
+          "headline": "",
+          "text": ""
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "./assets/img/20220124.jpg"
+        },
+        "start_date": {
+          "month": "1",
+          "day": "24",
+          "year": "2022"
+        },
+		"display_date": "2022/01/24",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>甜甜圈計劃發佈</span>",
+          "text": "於2022年員工大會上，正式發佈NP甜甜圈計劃。<br><br><br>第三組成員有 Bunny、Jerry、Kevin、KH、Winnie、Zoe 。<br>※ 按字母順序排序 ※"
+        }
+      },
+      {
+        "media": {
+          "url": "./assets/img/20220125.jpg"
+        },
+        "start_date": {
+          "month": "1",
+          "day": "25",
+          "year": "2022"
+        },
+		"display_date": "2022/01/25",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>選任圈長 - Kevin</span>",
+          "text": "透過大多數的舉薦，由 <span class='badge bg-dark'><b>Kevin</b></span> 當選圈長!"
+        }
+      },
+      {
+        "media": {
+          "url": "./assets/img/20220209.jpg"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "9",
+          "year": "2022"
+        },
+		"display_date": "2022/02/09",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>票選圈名</span>",
+          "text": "1. NP好幸虎<br>2. 夥伴來集合<br>3. NP小虎隊<br>4. NP虎guys<br>5. 創意出奇蛋<br>6. A-team<br>7. 當我們一起虎"
+        }
+      },
+      {
+        "media": {
+          "url": "./assets/img/20220211.jpg"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "11",
+          "year": "2022"
+        },
+		"display_date": "2022/02/11",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>圈名 - NP好幸虎</span>",
+          "text": "圈名投票出爐! 由「<b>NP好幸虎</b>」當選!!"
+        }
+      },
+      {
+        "media": {
+          "url": "./assets/img/20220215.jpg"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "15",
+          "year": "2022"
+        },
+		"display_date": "2022/02/15",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>票選第一次聚會日期</span>",
+          "text": "有鑒於大家可以聚會的時間不確定，所以還是投票為主，票選的日期有四人以上就開團。<br><br> 第一次聚會日期票選結果於：<b>2022//02/21 (星期一)</b>"
+        }
+      },
+      {
+        "media": {
+          "url": "./assets/img/20220221.jpg"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "21",
+          "year": "2022"
+        },
+		"display_date": "2022/02/21",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>第一次聚會 - 笨豬跳韓式燒肉</span>",
+          "text": "聚會討論內容：<br>可參考題目:<br>1. 一日部門系列 (Winnie)<br>2. 系統架構改善 (KH)<br>3. 微服務 docker (KH)<br>4. 內部開課 (Kevin)<br>5. 如何增進向心力 (Kevin)<br><br><br>目標:<br>1. 如何以模範組自居<br>2. 搞懂甜甜圈背後用意"
+        }
+      },
+      {
+        "media": {
+          "url": "./assets/img/20220225.jpg"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "25",
+          "year": "2022"
+        },
+		"display_date": "2022/02/25",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>票選第二次聚會日期/地點</span>",
+          "text": "<br><br><b>NP好幸虎</b>&emsp;第一次大合體!!<br><br>第二次聚會日期票選結果於：<b>2022//03/13 (星期日)</b><br>第二次聚會地點票選結果於：<b>嘉義抹茶山+古坑喝咖啡</b>"
+        }
+      },
+      {
+        "media": {
+          "url": "./assets/img/20220302.jpg"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "2",
+          "year": "2022"
+        },
+		"display_date": "2022/03/02",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>CIS 正式發佈</span>",
+          "text": "<br><br>由NP御用設計師 <b>Zoe</b> 量身打造!!"
+        }
+      },
+      {
+        "media": {
+          "url": "./assets/img/20220313.jpg"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "13",
+          "year": "2022"
+        },
+		"display_date": "2022/03/13",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>第二次聚會 - 抹茶山+桂林映象會館</span>",
+          "text": "聚會討論內容<br>題目：讓我們在一起…<br>主旨： 增加向心力<br>內容：<br>1. 福委會<br>2. 一日體驗<br>3. 團建<br>4. 性向測驗"
+        }
+      },
+      {
+        "media": {
+          "url": "./assets/img/20220302.jpg"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "23",
+          "year": "2022"
+        },
+		"display_date": "2022/03/23",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>票選第三次聚會日期/地點</span>",
+          "text": "<br><br><b>NP好幸虎</b>&emsp;歡迎生力軍 Jessie 加入!!<br><br>第三次聚會日期票選結果於：<strike>2022//04/11 (星期一)</strike>&emsp;<b>2022//04/17 (星期日)</b><br>第三次聚會地點：<b>公司</b>"
+        }
+      },
+      {
+        "media": {
+          "url": "./assets/img/20220302.jpg"
+        },
+        "start_date": {
+          "month": "4",
+          "day": "17",
+          "year": "2022"
+        },
+		"display_date": "2022/04/17",
+        "text": {
+          "headline": "<span style='color: #4a4e69;'>第三次聚會</span>",
+          "text": "討論內容：<br>1. 成員定位<br>2. 虛擬角色名及能力<br>3. 主旨由向心力改為企業認同及文化建立<br>4. 先思考目前公司的企業文化是什麼<br>5. 之前討論的題目（如福委會、體驗）會定位為輔助功能<br>6. 思考各部門有沒有什麼需要改善的地方<br>7. 延續6，思考如何改善工作流程<br>8. 甘特圖"
+        }
+      }
+    ]
+}
