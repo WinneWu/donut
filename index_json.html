@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="N-Partner, So-Happy-in-NP, Winnie">
+  <title>NP好幸虎 ::: So Happy in NP</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/img/logo.jpeg">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=EB+Garamond:wght@700&family=Noto+Serif+TC:wght@900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/css/timeline3.css">
+    <!-- Bootstrap core CSS -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this website -->
+  <link href="./assets/css/blog.css?uptime=20220419v1" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="blog-header pb-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1"></div>
+        <div class="col-4 text-center">
+          <img class="blog-logo" src="./assets/img/logo.jpeg" alt="So Happy in NP">
+          <!-- <span class="blog-header-logo text-dark"><span class="font-en">NP</span>&nbsp;<span class="font-tc">好幸虎</span></span> -->
+          <!-- <span class="link-secondary font-en-human ms-2">So Happy in NP</span> -->
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+        </div>
+      </div>
+    </header>
+    <!-- Nav list -->
+    <!--<div class="nav-scroller py-1 mb-2">
+      <nav class="nav d-flex justify-content-between">
+          <a class="p-2 link-secondary" href="#">Nav</a>
+          <a class="p-2 link-secondary" href="#">Nav</a>
+          <a class="p-2 link-secondary" href="#">Nav</a>
+      </nav>
+    </div> -->
+  </div>
+
+  <main class="container">
+    <!-- 焦點 -->
+    <div class="row mb-2">
+      <div class="col-md-12">
+        <div id='timeline-embed' style="width: 100%; height: 730px"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="blog-footer">
+    <p>Copyright © 2022 NP好幸虎 | 版權所有</p>
+  </footer>
+  <!-- Back to top -->
+  <a href="#" class="btn btn-outline-secondary btn-lg position-fixed" style="bottom:5%; right:6%;"
+    data-bs-toggle="tooltip" data-bs-placement="top" title="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-up"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z" />
+    </svg>
+  </a>
+  <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap core JS -->
+  <script src="./assets/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- timeline JS -->
+  <script type="text/javascript" src="./assets/js/timeline3.js"></script>
+  <script>
+    var timeline;
+    // http://timeline.knightlab.com/docs/options.html
+    var additionalOptions = {
+      //height: 730,
+      font: 'Default',
+      lang: 'en',
+      initial_zoom: 1,
+      start_at_slide: 1,
+      //timenav_height: 300
+    };
+    var initPage = function () {
+      $.getJSON("./timeline-datas.json?uptime=20220419v1", function (json) {
+        timeline = new TL.Timeline('timeline-embed', json, additionalOptions);
+      });
+    };
+    var docReady = function docReady(fn) {
+      // see if DOM is already available
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', fn);
+      } else {
+        setTimeout(fn, 1);
+      }
+    };
+
+    // init timeline
+    docReady(initPage);
+  </script>
+</body>
+
+</html>
