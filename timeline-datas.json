@@ -293,20 +293,6 @@
         "headline": "<span style='color: #4a4e69;'>07/26 甜甜圈會議</span>",
         "text": "<br>會議主題：<br>1. Review 報告<br>2. 各部門提供教育訓練項目 (技能樹)"
       }
-    },
-    {
-      "media": {
-        "url": "<iframe src='https://onedrive.live.com/embed?cid=68D832E26771183D&amp;resid=68D832E26771183D%2167858&amp;authkey=ABPw_uRiF_DSHdM&amp;em=2&amp;wdAr=1.414605418138987' frameborder='0'></iframe>"
-      },
-      "start_date": {
-        "month": "7",
-        "day": "28",
-        "year": "2022"
-      },
-      "display_date": "2022/07/28",
-      "text": {
-        "headline": "<span style='color: #4a4e69;'>報告</span>"
-        }
     }
   ]
 }
